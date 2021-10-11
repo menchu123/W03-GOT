@@ -8,6 +8,14 @@ class Personajes {
     this.familia = familia;
     this.edad = edad;
   }
+
+  comunicar() {
+    return this.mensaje;
+  }
+
+  morir() {
+    this.estado = "muerto";
+  }
 }
 
 export default Personajes;

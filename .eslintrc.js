@@ -15,5 +15,7 @@ module.exports = {
     "no-restricted-syntax": "off",
     "consistent-return": "off",
     "no-debugger": "off",
+    "lines-between-class-members": "off",
   },
+  parser: "@babel/eslint-parser",
 };
