@@ -1,5 +1,5 @@
 class Personajes {
-  estado = "vivo";
+  vivo = true;
   serie = "Juego de Tronos";
   mensaje;
 
@@ -14,7 +14,7 @@ class Personajes {
   }
 
   morir() {
-    this.estado = "muerto";
+    this.vivo = false;
   }
 }
 
