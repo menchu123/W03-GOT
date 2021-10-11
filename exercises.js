@@ -13,6 +13,9 @@ const daenerysTargaryen = new Luchador(
   "Dragones",
   9
 );
+const tyrionLannister = new Asesor("Tyrion", "Lannister", 29, "Daenerys");
+
+const personajesArray = [Rey, Luchador, Asesor, Escudero];
 
 console.log(joffreyBaratheon);
 console.log(joffreyBaratheon.comunicar());
