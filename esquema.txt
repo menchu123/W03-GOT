@@ -1,0 +1,36 @@
+1 - Personajes
+      nombre
+      familia
+      Edad
+      estado
+      serie = juego de tronos
+      mensaje
+
+
+      comunicar()
+       return ''
+
+      morir()
+        estado = muerto
+
+  1a - rey
+        años de reinado
+        mensaje = 'Vais a morir todos'
+
+  1b - luchador
+        Arma
+        Destreza (0-10)
+        mensaje = 'Primero pego y luego pregunto'
+
+  1c - asesor
+        jefe = rey/luchador/asesor/escudero
+        mensaje = 'No sé por qué, pero creo que voy a morir pronto'
+
+  1d - escudero
+        jefe = luchador
+        pelotismo = (0-10)
+        mensaje = 'Soy un loser'
+      
+
+
+    
