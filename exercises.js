@@ -15,7 +15,24 @@ const daenerysTargaryen = new Luchador(
 );
 const tyrionLannister = new Asesor("Tyrion", "Lannister", 29, "Daenerys");
 
-const personajesArray = [Rey, Luchador, Asesor, Escudero];
+const personajesArray = [
+  joffreyBaratheon,
+  jamieLannister,
+  daenerysTargaryen,
+  tyrionLannister,
+];
+
+const mensajes = personajesArray
+  .filter((personaje) => personaje instanceof Luchador)
+  .map((personaje) => personaje.mensaje);
+mensajes.forEach((mensaje) => console.log(mensaje));
+
+console.log(jamieLannister.vivo ? "Jamie está vivo" : "Jamie está muerto");
+console.log(tyrionLannister.vivo ? "Tyrion está vivo" : "Tyrion está muerto");
+jamieLannister.morir();
+tyrionLannister.morir();
+console.log(jamieLannister.vivo ? "Jamie está vivo" : "Jamie está muerto");
+console.log(tyrionLannister.vivo ? "Tyrion está vivo" : "Tyrion está muerto");
 
 console.log(joffreyBaratheon);
 console.log(joffreyBaratheon.comunicar());

@@ -35,4 +35,4 @@
 
     CORRECCIONES
     Poner nombre, familia y edad fuera del constructor
-    
+    Cambiar estado a vivo y darle true o false
